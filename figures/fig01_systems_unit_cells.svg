@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="504pt" height="172pt" viewBox="0 0 504 172" font-family="Helvetica, Arial, sans-serif" fill="#000000">
+<title>Fig. 1: reference periodic systems and unit cells</title>
+<desc>(a) Mass-in-mass chain, (b) resonator-loaded rod, (c) resonator-loaded Timoshenko beam; resonator-centered unit cells shaded. Source for figures/fig01_systems_unit_cells.pdf.</desc>
+<defs><marker id="ah" viewBox="0 0 8 8" refX="7.2" refY="4" markerWidth="5.2" markerHeight="5.2" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0.6 L8 4 L0 7.4 z" fill="#000000"/></marker></defs>
+<rect width="504" height="172" fill="#ffffff"/>
+<text x="3.00" y="16.00" font-size="16" text-anchor="start" font-weight="bold">a</text>
+<text x="20.00" y="15.00" font-size="14" text-anchor="start" font-weight="normal">Mass-in-mass chain</text>
+<rect x="58.0" y="48" width="52" height="60" fill="#dcbeff" fill-opacity="0.3"/>
+<line x1="58.00" y1="46.00" x2="58.00" y2="110.00" stroke="#8c8c8c" stroke-width="0.7" stroke-dasharray="2.6 1.8"/>
+<line x1="110.00" y1="46.00" x2="110.00" y2="69.00" stroke="#8c8c8c" stroke-width="0.7" stroke-dasharray="2.6 1.8"/>
+<line x1="110.00" y1="84.50" x2="110.00" y2="110.00" stroke="#8c8c8c" stroke-width="0.7" stroke-dasharray="2.6 1.8"/>
+<circle cx="5.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="9.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="13.00" cy="88" r="0.95" fill="#000000"/>
+<rect x="17.00" y="76.00" width="30" height="24" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+<path d="M17.00 91.30 L18.80 91.30 L19.64 93.70 L21.32 88.90 L23.00 93.70 L24.68 88.90 L26.36 93.70 L27.20 91.30 L29.00 91.30" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<rect x="29.00" y="85.30" width="12" height="12" fill="#ffd8b1" stroke="#000000" stroke-width="1.0"/>
+<circle cx="31.80" cy="98.65" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<circle cx="38.20" cy="98.65" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<path d="M47.00 88.00 L50.30 88.00 L51.58 91.20 L54.15 84.80 L56.72 91.20 L59.28 84.80 L61.85 91.20 L64.42 84.80 L65.70 88.00 L69.00 88.00" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<rect x="69.00" y="76.00" width="30" height="24" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+<path d="M69.00 91.30 L70.80 91.30 L71.64 93.70 L73.32 88.90 L75.00 93.70 L76.68 88.90 L78.36 93.70 L79.20 91.30 L81.00 91.30" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<rect x="81.00" y="85.30" width="12" height="12" fill="#ffd8b1" stroke="#000000" stroke-width="1.0"/>
+<circle cx="83.80" cy="98.65" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<circle cx="90.20" cy="98.65" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<path d="M99.00 88.00 L102.30 88.00 L103.58 91.20 L106.15 84.80 L108.72 91.20 L111.28 84.80 L113.85 91.20 L116.42 84.80 L117.70 88.00 L121.00 88.00" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<text x="74.00" y="72.00" font-size="13" text-anchor="middle" font-weight="normal"><tspan font-style="italic">K</tspan></text>
+<text x="87.00" y="72.00" font-size="13" text-anchor="middle" font-weight="normal"><tspan font-style="italic">m</tspan></text>
+<text x="84.00" y="113.00" font-size="13" text-anchor="middle" font-weight="normal"><tspan font-style="italic">M</tspan></text>
+<rect x="121.00" y="76.00" width="30" height="24" fill="#ffffff" stroke="#000000" stroke-width="1.1"/>
+<path d="M121.00 91.30 L122.80 91.30 L123.64 93.70 L125.32 88.90 L127.00 93.70 L128.68 88.90 L130.36 93.70 L131.20 91.30 L133.00 91.30" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<rect x="133.00" y="85.30" width="12" height="12" fill="#ffd8b1" stroke="#000000" stroke-width="1.0"/>
+<circle cx="135.80" cy="98.65" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<circle cx="142.20" cy="98.65" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<line x1="131.00" y1="70.00" x2="147.00" y2="70.00" stroke="#000000" stroke-width="0.8" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<circle cx="155.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="159.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="163.00" cy="88" r="0.95" fill="#000000"/>
+<text x="110.00" y="81.00" font-size="13" text-anchor="middle" font-weight="normal"><tspan font-style="italic">K</tspan><tspan dy="3" font-size="9.5">b</tspan><tspan dy="-3"> </tspan></text>
+<line x1="58.00" y1="120.00" x2="110.00" y2="120.00" stroke="#000000" stroke-width="0.7" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="84.00" y="135.00" font-size="13" text-anchor="middle" font-weight="normal" font-style="italic">L</text>
+<text x="171.00" y="16.00" font-size="16" text-anchor="start" font-weight="bold">b</text>
+<text x="188.00" y="15.00" font-size="14" text-anchor="start" font-weight="normal">Resonator-loaded</text>
+<text x="188.00" y="30.00" font-size="14" text-anchor="start" font-weight="normal">rod</text>
+<rect x="218.0" y="48" width="52" height="60" fill="#dcbeff" fill-opacity="0.3"/>
+<line x1="218.00" y1="46.00" x2="218.00" y2="110.00" stroke="#8c8c8c" stroke-width="0.7" stroke-dasharray="2.6 1.8"/>
+<line x1="270.00" y1="46.00" x2="270.00" y2="110.00" stroke="#8c8c8c" stroke-width="0.7" stroke-dasharray="2.6 1.8"/>
+<circle cx="172.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="176.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="180.00" cy="88" r="0.95" fill="#000000"/>
+<line x1="183.00" y1="88.00" x2="321.00" y2="88.00" stroke="#000000" stroke-width="2.4" />
+<circle cx="324.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="328.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="332.00" cy="88" r="0.95" fill="#000000"/>
+<line x1="192.00" y1="86.80" x2="192.00" y2="73.10" stroke="#000000" stroke-width="1.0" />
+<path d="M192.00 78.60 L193.65 78.60 L194.42 81.00 L195.96 76.20 L197.50 81.00 L199.04 76.20 L200.58 81.00 L201.35 78.60 L203.00 78.60" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<rect x="203.00" y="73.10" width="11" height="11" fill="#ffd8b1" stroke="#000000" stroke-width="1.0"/>
+<circle cx="205.80" cy="85.45" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<circle cx="211.20" cy="85.45" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<line x1="244.00" y1="86.80" x2="244.00" y2="73.10" stroke="#000000" stroke-width="1.0" />
+<path d="M244.00 78.60 L245.65 78.60 L246.42 81.00 L247.96 76.20 L249.50 81.00 L251.04 76.20 L252.58 81.00 L253.35 78.60 L255.00 78.60" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<rect x="255.00" y="73.10" width="11" height="11" fill="#ffd8b1" stroke="#000000" stroke-width="1.0"/>
+<circle cx="257.80" cy="85.45" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<circle cx="263.20" cy="85.45" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<text x="247.00" y="69.10" font-size="13" text-anchor="middle" font-weight="normal"><tspan font-style="italic">K</tspan></text>
+<text x="262.50" y="69.10" font-size="13" text-anchor="middle" font-weight="normal"><tspan font-style="italic">m</tspan></text>
+<line x1="296.00" y1="86.80" x2="296.00" y2="73.10" stroke="#000000" stroke-width="1.0" />
+<path d="M296.00 78.60 L297.65 78.60 L298.42 81.00 L299.96 76.20 L301.50 81.00 L303.04 76.20 L304.58 81.00 L305.35 78.60 L307.00 78.60" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<rect x="307.00" y="73.10" width="11" height="11" fill="#ffd8b1" stroke="#000000" stroke-width="1.0"/>
+<circle cx="309.80" cy="85.45" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<circle cx="315.20" cy="85.45" r="1.35" fill="#ffffff" stroke="#000000" stroke-width="0.6"/>
+<line x1="305.00" y1="67.10" x2="322.00" y2="67.10" stroke="#000000" stroke-width="0.8" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<line x1="218.00" y1="120.00" x2="270.00" y2="120.00" stroke="#000000" stroke-width="0.7" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="244.00" y="135.00" font-size="13" text-anchor="middle" font-weight="normal" font-style="italic">L</text>
+<text x="244.00" y="152.00" font-size="13" text-anchor="middle" font-weight="normal"><tspan font-style="italic">EA</tspan><tspan dy="3" font-size="9.5">r</tspan><tspan dy="-3"> </tspan>, <tspan font-style="italic">ρA</tspan><tspan dy="3" font-size="9.5">r</tspan></text>
+<text x="244.00" y="168.00" font-size="13" text-anchor="middle" font-weight="normal"><tspan font-style="italic">N</tspan> = 1</text>
+<text x="339.00" y="16.00" font-size="16" text-anchor="start" font-weight="bold">c</text>
+<text x="356.00" y="15.00" font-size="14" text-anchor="start" font-weight="normal">Resonator-loaded</text>
+<text x="356.00" y="30.00" font-size="14" text-anchor="start" font-weight="normal">Timoshenko beam</text>
+<rect x="394.0" y="48" width="52" height="60" fill="#dcbeff" fill-opacity="0.3"/>
+<line x1="394.00" y1="46.00" x2="394.00" y2="110.00" stroke="#8c8c8c" stroke-width="0.7" stroke-dasharray="2.6 1.8"/>
+<line x1="446.00" y1="46.00" x2="446.00" y2="110.00" stroke="#8c8c8c" stroke-width="0.7" stroke-dasharray="2.6 1.8"/>
+<circle cx="340.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="344.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="348.00" cy="88" r="0.95" fill="#000000"/>
+<line x1="351.00" y1="88.00" x2="489.00" y2="88.00" stroke="#000000" stroke-width="2.4" />
+<circle cx="492.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="496.00" cy="88" r="0.95" fill="#000000"/>
+<circle cx="500.00" cy="88" r="0.95" fill="#000000"/>
+<path d="M368.00 86.80 L368.00 83.95 L370.60 82.84 L365.40 80.62 L370.60 78.41 L365.40 76.19 L370.60 73.97 L365.40 71.76 L368.00 70.65 L368.00 67.80" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<rect x="362.00" y="55.80" width="12" height="12" fill="#ffd8b1" stroke="#000000" stroke-width="1.0"/>
+<path d="M420.00 86.80 L420.00 83.95 L422.60 82.84 L417.40 80.62 L422.60 78.41 L417.40 76.19 L422.60 73.97 L417.40 71.76 L420.00 70.65 L420.00 67.80" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<rect x="414.00" y="55.80" width="12" height="12" fill="#ffd8b1" stroke="#000000" stroke-width="1.0"/>
+<text x="425.00" y="81.00" font-size="13" text-anchor="start" font-weight="normal"><tspan font-style="italic">K</tspan></text>
+<text x="428.50" y="66.30" font-size="13" text-anchor="start" font-weight="normal"><tspan font-style="italic">m</tspan></text>
+<path d="M472.00 86.80 L472.00 83.95 L474.60 82.84 L469.40 80.62 L474.60 78.41 L469.40 76.19 L474.60 73.97 L469.40 71.76 L472.00 70.65 L472.00 67.80" fill="none" stroke="#4d4d4d" stroke-width="0.9" stroke-linejoin="round"/>
+<rect x="466.00" y="55.80" width="12" height="12" fill="#ffd8b1" stroke="#000000" stroke-width="1.0"/>
+<line x1="484.00" y1="54.80" x2="484.00" y2="68.80" stroke="#000000" stroke-width="0.8" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<line x1="394.00" y1="120.00" x2="446.00" y2="120.00" stroke="#000000" stroke-width="0.7" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="420.00" y="135.00" font-size="13" text-anchor="middle" font-weight="normal" font-style="italic">L</text>
+<text x="420.00" y="152.00" font-size="13" text-anchor="middle" font-weight="normal"><tspan font-style="italic">EI</tspan>, <tspan font-style="italic">GA</tspan>, <tspan font-style="italic">ρA</tspan>, <tspan font-style="italic">ρI</tspan></text>
+<text x="420.00" y="168.00" font-size="13" text-anchor="middle" font-weight="normal"><tspan font-style="italic">N</tspan> = 2</text>
+</svg>

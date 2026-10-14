@@ -1,0 +1,6 @@
+# written by the verification scripts; regenerated on every run
+matlab/verification/*.mat
+# editor and system files
+*.asv
+.DS_Store
+__pycache__/

@@ -1,0 +1,126 @@
+gamma_fB1_vpa  10-Oct-2026 11:27:04  MATLAB 26.1.0.3251617 (R2026a) Update 2  Symbolic 26.1
+
+Exact (rational) Table 1(a) inputs and the derived constants:
+  Ef    = 85420000000     |double - params_beam| = 0
+  hf    = 3/2500          |double - params_beam| = 0
+  rhof  = 1570            |double - params_beam| = 0
+  rhoc  = 9611/100        |double - params_beam| = 0
+  hc    = 1/40            |double - params_beam| = 0
+  Gc    = 1000000         |double - params_beam| = 0
+  b     = 1/40            |double - params_beam| = 0
+  L     = 1/20            |double - params_beam| = 0
+  m     = 1/40            |double - params_beam| = 0
+  EI    = 1755381/2000  (rel. diff. from params_beam 1.3e-16)
+  GA    = 625  (rel. diff. from params_beam 0)
+  rhoA  = 24683/160000  (rel. diff. from params_beam 0)
+  rhoI  = 7395967/384000000000  (rel. diff. from params_beam 1.8e-16)
+
+Double precision, f_B1 = 636.446438098215 Hz (beam_bragg_frequency):
+  sin(k1 L) = 5.67e-16;  unsnapped gamma(f_B1) in [1.79e-07, 5.69e-05];  beam_cmu_d (snapped) at eta_r=1e-3: 0
+
+C1 port vs beam_cmu_d (double, eta=[1e-4 2e-5 3e-3], 4 frequencies): max rel. diff = 0
+
+32 digits:  f_B1 = 636.44643809821516645481879838455 Hz
+  closed form vs vpasolve: rel. diff = 2.8e-40;  |sin(k1 L)| = 3.21e-40
+  gamma(f_B1), pure eta_r, f_r = f_B1:  max over 51 eta = 3.75e-17,  min = 1.23e-19
+  C2 eta_s=1e-4, f_r=f_B1+0.1 Hz: gamma(f_B1) = 0.0405710809179
+  C2b eta_s=1e-4, f_r=f_B1 (Psi limit): gamma(f_B1) = 0.0353767791378
+  C3 f_B1+1 mHz, eta_r=1e-3 gamma = 0.0310966782778
+  C4 f_r=f_B1+0.1 Hz, eta_r=1e-3 gamma(f_B1) = 1.04e-18
+
+50 digits:  f_B1 = 636.446438098215166454818798384554771786 Hz
+  closed form vs vpasolve: rel. diff = 2.85e-58;  |sin(k1 L)| = 1.27e-57
+  gamma(f_B1), pure eta_r, f_r = f_B1:  max over 51 eta = 7.46e-26,  min = 2.42e-28
+  C2 eta_s=1e-4, f_r=f_B1+0.1 Hz: gamma(f_B1) = 0.0405710809179
+  C2b eta_s=1e-4, f_r=f_B1 (Psi limit): gamma(f_B1) = 0.0353767791378
+  C3 f_B1+1 mHz, eta_r=1e-3 gamma = 0.0310966782778
+  C4 f_r=f_B1+0.1 Hz, eta_r=1e-3 gamma(f_B1) = 2.08e-27
+
+75 digits:  f_B1 = 636.446438098215166454818798384554771786 Hz
+  closed form vs vpasolve: rel. diff = 1.49e-83;  |sin(k1 L)| = 1.74e-83
+  gamma(f_B1), pure eta_r, f_r = f_B1:  max over 51 eta = 9.98e-39,  min = 3.21e-41
+  C2 eta_s=1e-4, f_r=f_B1+0.1 Hz: gamma(f_B1) = 0.0405710809179
+  C2b eta_s=1e-4, f_r=f_B1 (Psi limit): gamma(f_B1) = 0.0353767791378
+  C3 f_B1+1 mHz, eta_r=1e-3 gamma = 0.0310966782778
+  C4 f_r=f_B1+0.1 Hz, eta_r=1e-3 gamma(f_B1) = 3.32e-40
+
+100 digits:  f_B1 = 636.446438098215166454818798384554771786 Hz
+  closed form vs vpasolve: rel. diff = 2.62e-108;  |sin(k1 L)| = 8.9e-108
+  gamma(f_B1), pure eta_r, f_r = f_B1:  max over 51 eta = 7.13e-51,  min = 2.24e-53
+  C2 eta_s=1e-4, f_r=f_B1+0.1 Hz: gamma(f_B1) = 0.0405710809179
+  C2b eta_s=1e-4, f_r=f_B1 (Psi limit): gamma(f_B1) = 0.0353767791378
+  C3 f_B1+1 mHz, eta_r=1e-3 gamma = 0.0310966782778
+  C4 f_r=f_B1+0.1 Hz, eta_r=1e-3 gamma(f_B1) = 2.37e-52
+
+f_B1 double (beam_bragg_frequency) minus 100-digit value: -2.54e-13 Hz
+
+Per-eta table (gamma(f_B1), pure resonator loss, f_r = f_B1):
+  eta_r        double       32 digits    50 digits    75 digits    100 digits  
+  1.0000e-06   5.6860e-05   3.7525e-17   7.4620e-26   9.9788e-39   7.1279e-51  
+  1.2589e-06   5.0157e-05   3.4005e-17   6.7621e-26   8.8024e-39   6.2877e-51  
+  1.5849e-06   4.4314e-05   3.0695e-17   6.1039e-26   7.7771e-39   5.5552e-51  
+  1.9953e-06   3.9209e-05   2.7627e-17   5.4938e-26   6.8812e-39   4.9153e-51  
+  2.5119e-06   3.4737e-05   2.4810e-17   4.9336e-26   6.0963e-39   4.3546e-51  
+  3.1623e-06   3.0808e-05   2.2243e-17   4.4231e-26   5.4068e-39   3.8621e-51  
+  3.9811e-06   2.7349e-05   1.9916e-17   3.9603e-26   4.7998e-39   3.4285e-51  
+  5.0119e-06   2.4297e-05   1.7814e-17   3.5424e-26   4.2641e-39   3.0459e-51  
+  6.3096e-06   2.1599e-05   1.5922e-17   3.1661e-26   3.7906e-39   2.7077e-51  
+  7.9433e-06   1.9210e-05   1.4222e-17   2.8281e-26   3.3714e-39   2.4082e-51  
+  1.0000e-05   1.7093e-05   1.2698e-17   2.5250e-26   2.9998e-39   2.1428e-51  
+  1.2589e-05   1.5214e-05   1.1332e-17   2.2535e-26   2.6700e-39   1.9072e-51  
+  1.5849e-05   1.3545e-05   1.0111e-17   2.0107e-26   2.3772e-39   1.6980e-51  
+  1.9953e-05   1.2062e-05   9.0194e-18   1.7935e-26   2.1169e-39   1.5121e-51  
+  2.5119e-05   1.0743e-05   8.0440e-18   1.5996e-26   1.8854e-39   1.3468e-51  
+  3.1623e-05   9.5697e-06   7.1731e-18   1.4264e-26   1.6795e-39   1.1997e-51  
+  3.9811e-05   8.5254e-06   6.3958e-18   1.2718e-26   1.4962e-39   1.0687e-51  
+  5.0119e-05   7.5957e-06   5.7022e-18   1.1339e-26   1.3330e-39   9.5221e-52  
+  6.3096e-05   6.7679e-06   5.0834e-18   1.0109e-26   1.1878e-39   8.4843e-52  
+  7.9433e-05   6.0307e-06   4.5316e-18   9.0112e-27   1.0584e-39   7.5601e-52  
+  1.0000e-04   5.3740e-06   4.0394e-18   8.0325e-27   9.4314e-40   6.7368e-52  
+  1.2589e-04   4.7890e-06   3.6006e-18   7.1599e-27   8.4048e-40   6.0035e-52  
+  1.5849e-04   4.2678e-06   3.2093e-18   6.3819e-27   7.4902e-40   5.3501e-52  
+  1.9953e-04   3.8034e-06   2.8605e-18   5.6882e-27   6.6751e-40   4.7680e-52  
+  2.5119e-04   3.3897e-06   2.5495e-18   5.0698e-27   5.9490e-40   4.2492e-52  
+  3.1623e-04   3.0210e-06   2.2724e-18   4.5186e-27   5.3017e-40   3.7871e-52  
+  3.9811e-04   2.6925e-06   2.0253e-18   4.0272e-27   4.7249e-40   3.3752e-52  
+  5.0119e-04   2.3997e-06   1.8049e-18   3.5892e-27   4.2118e-40   3.0083e-52  
+  6.3096e-04   2.1388e-06   1.6085e-18   3.1987e-27   3.7538e-40   2.6813e-52  
+  7.9433e-04   1.9063e-06   1.4336e-18   2.8506e-27   3.3455e-40   2.3897e-52  
+  1.0000e-03   1.6992e-06   1.2776e-18   2.5405e-27   2.9825e-40   2.1300e-52  
+  1.2589e-03   1.5146e-06   1.1383e-18   2.2639e-27   2.6587e-40   1.8985e-52  
+  1.5849e-03   1.3501e-06   1.0146e-18   2.0173e-27   2.3694e-40   1.6924e-52  
+  1.9953e-03   1.2035e-06   9.0414e-19   1.7977e-27   2.1122e-40   1.5086e-52  
+  2.5119e-03   1.0729e-06   8.0529e-19   1.6017e-27   1.8831e-40   1.3447e-52  
+  3.1623e-03   9.5648e-07   7.1781e-19   1.4271e-27   1.6789e-40   1.1989e-52  
+  3.9811e-03   8.5281e-07   6.3908e-19   1.2715e-27   1.4970e-40   1.0690e-52  
+  5.0119e-03   7.6061e-07   5.6954e-19   1.1326e-27   1.3350e-40   9.5326e-53  
+  6.3096e-03   6.7820e-07   5.0745e-19   1.0086e-27   1.1921e-40   8.5013e-53  
+  7.9433e-03   6.0494e-07   4.5214e-19   8.9830e-28   1.0621e-40   7.5806e-53  
+  1.0000e-02   5.3971e-07   4.0241e-19   7.9987e-28   9.4772e-41   6.7676e-53  
+  1.2589e-02   4.8164e-07   3.5798e-19   7.1187e-28   8.4587e-41   6.0370e-53  
+  1.5849e-02   4.2996e-07   3.1824e-19   6.3353e-28   7.5304e-41   5.3858e-53  
+  1.9953e-02   3.8399e-07   2.8298e-19   5.6336e-28   6.7716e-41   4.8126e-53  
+  2.5119e-02   3.4345e-07   2.5183e-19   5.0078e-28   6.0022e-41   4.3041e-53  
+  3.1623e-02   3.0718e-07   2.2411e-19   4.4469e-28   5.3939e-41   3.8538e-53  
+  3.9811e-02   2.7456e-07   1.9856e-19   3.9504e-28   4.8292e-41   3.4351e-53  
+  5.0119e-02   2.4597e-07   1.7604e-19   3.4986e-28   4.3288e-41   3.0874e-53  
+  6.3096e-02   2.2064e-07   1.5643e-19   3.1021e-28   3.8408e-41   2.7639e-53  
+  7.9433e-02   1.9886e-07   1.3840e-19   2.7346e-28   3.4949e-41   2.4904e-53  
+  1.0000e-01   1.7852e-07   1.2290e-19   2.4168e-28   3.2089e-41   2.2437e-53  
+
+Convergence (max over eta of gamma, and log10 ratio to 10^(-D/2)):
+  D= 32  max gamma = 3.75e-17   log10(max gamma) + D/2 = -0.43
+  D= 50  max gamma = 7.46e-26   log10(max gamma) + D/2 = -0.13
+  D= 75  max gamma = 9.98e-39   log10(max gamma) + D/2 = -0.50
+  D=100  max gamma = 7.13e-51   log10(max gamma) + D/2 = -0.15
+
+VERDICTS
+  [PASS] gamma(f_B1) falls with digits at every eta (each step > 5 decades)
+  [PASS] C1 port reproduces beam_cmu_d off the node (< 1e-10)
+  [PASS] C2 host loss: gamma(f_B1) = 0.04057108092, digit-independent
+  [info] C2b Psi limit at coincidence: vpa 0.03537677914, beam_cmu_d 0.03537677914 (rel. diff 1.9e-12)
+  [PASS] C3 off-node: gamma = 0.03109667828, digit-independent
+  [PASS] C4 detuned f_r: gamma(f_B1) falls with digits
+  [PASS] f_B1 closed form = vpasolve to < 10^(5-D) at every D
+
+wrote gamma_fB1_vpa_output.txt

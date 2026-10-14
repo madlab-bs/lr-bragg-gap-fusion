@@ -1,0 +1,14 @@
+nchan_transversality.py -- independent regression of the general-N result (manuscript Section 6.2)
+Python 3.11.16, NumPy 2.4.6
+
+GENERAL-N TRANSVERSALITY REGRESSION
+  N=2..5 conservative hosts tested : 1000
+  worst relative slope error       : 1.468e-05
+  worst selected-root imaginary    : 0.000e+00
+  pass-side test                   : every predicted root entered (-1,1)
+  sum(d_j)=0, T_B!=0 cases tested  : 300
+  worst slope error in those cases : 3.367e-08
+  passive forward N=1 cases        : 500
+  worst coincidence-residue error  : 2.779e-08
+  smallest N=1 stop-band margin    : 2.365e+00
+  RESULT                           : PASS

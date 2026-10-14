@@ -1,0 +1,26 @@
+beam_reference_values (0.3 s) vs 50-digit vpa
+  f_B1               636.446438098215   vpa 636.446438098215   diff -1.14e-13 Hz
+  f_r*               636.260501167375   vpa 636.260501167375   diff +0.00e+00 Hz
+  coincidence hi     636.483657057627   vpa 636.483657057627   diff +3.41e-13 Hz
+  W                  0.037218959412   vpa 0.0372189594121589   diff +3.26e-13 Hz
+  mode-exchange lo   636.410203891260   vpa 636.41020389126   diff +1.14e-13 Hz
+  W*                 0.036234206955   vpa 0.0362342069548929   diff -1.33e-13 Hz
+  degeneracy (200)   364.255994573549   vpa 364.255994573553   diff -3.92e-12 Hz
+  config (b) (200)   364.256921852759   vpa 364.256921852759   diff +2.84e-13 Hz
+  edges: coinc {cos mu = -1 (exact at k1 L = pi) | cos mu = +1}; mexch {degeneracy | cos mu = -1 (exact at k1 L = pi)}
+  worst |diff| = 3.92e-12 Hz  [PASS]
+
+literals replaced (literal - computed):
+  frstar                 -3.749e-10 Hz
+  W (fig10 hi - fB)      +4.059e-08 Hz
+  W*                     -6.955e-09 Hz
+  fig08 degeneracy line  +4.509e-10 Hz
+  fig08 sliding line     +2.407e-10 Hz
+
+fig06 widths vs narrow_band tol (fr = f_B1, f_r*):
+  fr=636.446438098 tol=1e-08  W = 0.037218954113  (W - reference -5.30e-09)
+  fr=636.446438098 tol=1e-10  W = 0.037218959390  (W - reference -2.23e-11)
+  fr=636.446438098 tol=1e-12  W = 0.037218959412  (W - reference -4.55e-13)
+  fr=636.260501167 tol=1e-08  W = 0.036234207022  (W - reference +6.73e-11)
+  fr=636.260501167 tol=1e-10  W = 0.036234206958  (W - reference +3.64e-12)
+  fr=636.260501167 tol=1e-12  W = 0.036234206955  (W - reference +2.27e-13)

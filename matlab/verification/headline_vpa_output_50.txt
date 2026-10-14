@@ -1,0 +1,38 @@
+headline_vpa  D = 50 digits  11-Oct-2026 10:24:56
+
+f_B1  = 636.446438098215 Hz   (|sin k1L| = 7.7e-58)
+f_B2  = 1272.978976828 Hz   (|sin k1L| = 2.3e-57)
+f_c   = 906.626210108 Hz
+kappaL= 0.0300463331255037   (acosh(cos k2L) check: 0)
+
+-- f_r = f_B1 --
+f = f_r = f_B1 is the K_T pole; finite branch Psi, Eq. (4.9), = -1.0 (expect -1)
+upper edge  = 636.483657057627 Hz  [cos mu = +1 (mu = 0)]
+W           = 0.0372189594121589 Hz
+
+-- mode exchange --
+f_r*        = 636.260501167375 Hz   (Im K* / Re K* = 0)
+Eq. (5.2) residual 1 - i K_T a2 cot h2 at f_r*: 2.6e-55
+second root at f_B1, f_r*: C2 + i K_T a2 S2 = 1.0 (expect +1)
+pass band   = [636.41020389126, 636.446438098215] Hz  [degeneracy | cos mu = -1]
+upper edge - f_B1 = 1.17e-43 Hz;  vpa minus double edges: 3.4e-13, 4.5e-13 Hz
+W*          = 0.0362342069548929 Hz
+W(f_r) of the same band near f_r* (is f_r* the minimizer?):
+  f_r*  -1e-02 Hz : W - W* = +1.976494e-03 Hz
+  f_r*  -1e-03 Hz : W - W* = +1.976142e-04 Hz
+  f_r*  -1e-04 Hz : W - W* = +1.976106e-05 Hz
+  f_r*  +1e-04 Hz : W - W* = +2.634884e-07 Hz
+  f_r*  +1e-03 Hz : W - W* = +2.638146e-06 Hz
+  f_r*  +1e-02 Hz : W - W* = +2.671667e-05 Hz
+
+-- f_r = 200 Hz --
+degeneracy  = 364.255994573553 Hz
+config (b)  = 364.256921852759 Hz
+offset      = 0.000927279 Hz
+
+-- rod --
+theta_c = 5000/1543 = 3.24044069993519
+Gamma_1 = 7.99546694838736
+c = 100.0 m/s, f_B1 = 1000.0 Hz
+
+wrote headline_vpa_output_50.txt

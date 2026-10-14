@@ -1,0 +1,12 @@
+nchan.py -- random-host tests of the general-N polynomial identities (manuscript Section 6.2)
+Python 3.11.16, NumPy 2.4.6
+
+=== Theorem 1: sin(k1 L)=0 => c=C1 is a root, any K_T, any N ===
+   max normalized |P(C1)| over N=1..6, 300 random hosts, 4 values of K_T : 3.941e-14
+
+=== Theorem 2: does EXACTLY ONE root diverge as K_T -> inf? ===
+   (a) generic hosts
+       2000/2000 cases had exactly one divergent root
+   (b) hosts CONSTRUCTED so that sum_j a_j S_j = 0  (the stated hypothesis violated)
+       0/2000 cases had exactly one divergent root  ->  2000 VIOLATIONS
+       example: N=2, divergent roots = 2 (not 1); roots = [-16485151.019+7544873.247j  16485150.175-7544873.278j]

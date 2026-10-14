@@ -1,0 +1,7 @@
+# Keep data files and transcripts byte for byte (no line-ending conversion on any platform),
+# so that regenerated figures/data/*.dat files can be compared with the committed ones.
+*.dat -text
+*.txt -text
+*.m   -text
+*.py  -text
+*.svg -text

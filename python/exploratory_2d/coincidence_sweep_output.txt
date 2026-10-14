@@ -1,0 +1,33 @@
+coincidence_sweep.py -- exploratory 2D lattice-Green's-function sweep summarized in Section 7.3
+Reproduced with Python 3.11.16, NumPy 2.4.6, SciPy 1.17.1; the bracketed per-test timings vary by machine
+
+
+============================================================================
+MEMBRANE  w_B = 3.141593   [2.5 ms per propagation test]
+   m_r = 1.0
+      w_r/w_B=0.90  passband   2.40434 -   3.14158   width  0.73724 (23.47% w_B)   [edge]
+      w_r/w_B=0.97  passband   2.46279 -   3.14158   width  0.67879 (21.61% w_B)   [edge]
+      w_r/w_B=1.00  passband   2.48513 -   3.14158   width  0.65645 (20.90% w_B)   [edge]
+      w_r/w_B=1.03  passband   2.50602 -   3.14158   width  0.63556 (20.23% w_B)   [edge]
+      w_r/w_B=1.10  passband   2.54976 -   3.14158   width  0.59182 (18.84% w_B)   [edge]
+   m_r = 4.0
+      w_r/w_B=0.90  passband   2.24019 -   3.14158   width  0.90139 (28.69% w_B)   [edge]
+      w_r/w_B=0.97  passband   2.25851 -   3.14158   width  0.88307 (28.11% w_B)   [edge]
+      w_r/w_B=1.00  passband   2.26530 -   3.14158   width  0.87628 (27.89% w_B)   [edge]
+      w_r/w_B=1.03  passband   2.27157 -   3.14158   width  0.87001 (27.69% w_B)   [edge]
+      w_r/w_B=1.10  passband   2.28438 -   3.14158   width  0.85720 (27.29% w_B)   [edge]
+
+============================================================================
+PLATE  w_B = 9.869604   [2.7 ms per propagation test]
+   m_r = 1.0
+      w_r/w_B=0.90  passband   9.86964 -  11.17126   width  1.30162 (13.19% w_B)   [edge]
+      w_r/w_B=0.97  passband   9.86966 -  11.82988   width  1.96022 (19.86% w_B)   [edge]
+      w_r/w_B=1.00  passband   9.86967 -  12.10069   width  2.23102 (22.60% w_B)   [edge]
+      w_r/w_B=1.03  passband   9.86967 -  12.36463   width  2.49495 (25.28% w_B)   [edge]
+      w_r/w_B=1.10  passband   9.86969 -  12.95401   width  3.08432 (31.25% w_B)   [edge]
+   m_r = 4.0
+      w_r/w_B=0.90  passband   9.86966 -  13.71704   width  3.84738 (38.98% w_B)   [edge]
+      w_r/w_B=0.97  passband   9.86966 -  14.16686   width  4.29720 (43.54% w_B)   [edge]
+      w_r/w_B=1.00  passband reaches the window edge (9.8697-14.3109)   [edge]
+      w_r/w_B=1.03  passband reaches the window edge (9.8697-14.3109)   [edge]
+      w_r/w_B=1.10  passband reaches the window edge (9.8697-14.3109)   [edge]
