@@ -7,7 +7,8 @@
 <sup>\*</sup> Corresponding author: bnsharma@mtu.edu
 
 This repository has the code and data that reproduce the figures, tables, and computed values of the
-manuscript. The citation will be added when the article is published.
+manuscript. The version cited in the manuscript, v1.0-submission, is archived on Zenodo:
+https://doi.org/10.5281/zenodo.23534658. The article citation will be added when it is published.
 
 ## What is reproduced
 
@@ -111,6 +112,13 @@ and `<key>_im`. Text fields are written as `@<key> <text>`.
   against an independent 40-digit calculation in the validation suites.
 - Lossless transmission resonances are narrower than double precision resolves, so only their maximum
   (full transmission) is reported; the plotted transmission profiles are damped.
+
+## Citation
+
+To cite the code and data, please use the archived version:
+
+M. Carrillo-Munoz, B. Sharma, J.-S. Chen, Code and data for "Fusion of local-resonance and Bragg band gaps in periodic
+resonator arrays" (Version v1.0-submission), Zenodo, 2026. https://doi.org/10.5281/zenodo.23534658
 
 ## License
 
