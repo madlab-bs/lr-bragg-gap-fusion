@@ -1,0 +1,32 @@
+{
+    "title": "Code and data for \"Fusion of local-resonance and Bragg band gaps in periodic resonator arrays\"",
+    "description": "MATLAB and Python code that reproduces the figures, tables, and computed values of the manuscript \"Fusion of local-resonance and Bragg band gaps in periodic resonator arrays\" by M. Carrillo-Munoz, B. Sharma, and J.-S. Chen, with the plotted data of every computed figure and the transcripts of the verification scripts. The code is released under the MIT License; the figure data files (figures/data) are released under CC BY 4.0.",
+    "creators": [
+        {
+            "name": "Carrillo-Munoz, Maria",
+            "affiliation": "Michigan Technological University"
+        },
+        {
+            "name": "Sharma, Bhisham",
+            "affiliation": "Michigan Technological University"
+        },
+        {
+            "name": "Chen, Jung-San",
+            "affiliation": "National Cheng Kung University"
+        }
+    ],
+    "version": "v1.0-submission",
+    "access_right": "open",
+    "license": "mit",
+    "upload_type": "software",
+    "language": "eng",
+    "keywords": [
+        "local resonance",
+        "Bragg scattering",
+        "band gap",
+        "elastic metamaterial",
+        "Timoshenko beam",
+        "dispersion relation",
+        "wave propagation"
+    ]
+}
